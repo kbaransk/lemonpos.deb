@@ -3,6 +3,12 @@ lemonpos.deb
 
 Files needed to create debian package from content of lemonpos
 
+##Generating deb package
+Just call genpkg.sh script :)
+```
+genpkg.sh
+```
+
 ##Getting the sources
 ```
 sudo apt-get install git
@@ -74,3 +80,5 @@ You can sign in using *admin* user and *linux* password.
 ##Sources
 * https://web.archive.org/web/20140330062708/http://sourceforge.net/apps/mediawiki/lemonpos/index.php?title=Installation_Guide
 * https://web.archive.org/web/20130919015146/http://sourceforge.net/apps/mediawiki/lemonpos/index.php?title=Ubuntu_Installation_Guide#The_default_user_and_password
+* http://linuxconfig.org/easy-way-to-create-a-debian-package-and-local-package-repository
+

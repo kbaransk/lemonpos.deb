@@ -1,0 +1,15 @@
+Source: lemonpos-fast
+Section: x11
+Priority: optional
+Maintainer: Krzysztof Baranski <kbaransk@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), cmake, autotools-dev (>= 20100122.1~)
+Standards-Version: 0.9.5
+Homepage: https://github.com/kbaransk/lemonpos
+Vcs-Git: https://github.com/kbaransk/lemonpos
+Vcs-Browser: https://github.com/kbaransk/lemonpos
+
+Package: lemonpos-fast
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-sql-mysql, mysql-client
+Description: Forked version of LemonPOS created to fix few issues
+ POS system written by Miguel Chavez Gamboa.

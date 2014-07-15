@@ -1,0 +1,28 @@
+Descriptio: performance optimization
+ historyTicketsModel->select() executed once per order, not for each line
+From: Krzysztof Baranski <kbaransk@gmail.com>
+Last-Update: 2-14-07-09
+
+--- a/src/lemonview.cpp
++++ b/src/lemonview.cpp
+@@ -2544,7 +2544,8 @@
+       myDb->insertTransactionItem(tItemInfo);
+ 
+       //re-select the transactionItems model
+-      historyTicketsModel->select();
++      // KB:performance optimization
++      // historyTicketsModel->select();
+ 
+       iname = iname.replace("\n", "|");
+ 
+@@ -2574,6 +2575,10 @@
+       ticketLines.append(tLineInfo);
+     } //each product on productHash
+     
++    // KB:performance optimization
++    //re-select the transactionItems model
++    historyTicketsModel->select();
++
+     tInfo.itemcount = cantidad; // qty of products (again, at Hash)
+ 
+     double soDiscounts = 0;
