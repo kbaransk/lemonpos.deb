@@ -1,0 +1,16 @@
+Descriptio: points were not calculated properly
+ same points were added multiple times as it's counter was not cleared properly
+From: Krzysztof Baranski <kbaransk@gmail.com>
+Last-Update: 15-03-10
+
+--- a/src/lemonview.cpp
++++ b/src/lemonview.cpp
+@@ -1094,6 +1094,7 @@ int lemonView::getItemRow(QString c)
+ 
+ void lemonView::refreshTotalLabel()
+ {
++    buyPoints = 0;
+     //BEGIN of REWRITE: This code has been rewritten from scratch, again. DEC 18 2011.
+     totalSum = 0;
+     totalTax = 0;
+
