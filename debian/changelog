@@ -1,11 +1,20 @@
+lemonpos-fast (0.9.5-3) unstable; urgency=low
+
+  * Fix for It's easy to overlook message that product was not added to basket as it's not in database (Closes: #5)
+  * Fix for isNotDiscountable column seems not to be used properly (Closes: #6)
+
+ -- Krzysztof Baranski <kbaransk@gmail.com>  Sun, 5 May 2015 22:20:00 +0200
+
 lemonpos-fast (0.9.5-2) unstable; urgency=low
 
-  * Fix for calculating bonux points (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Fix for calculating bonux points (Closes: #3)
 
  -- Krzysztof Baranski <kbaransk@gmail.com>  Mon, 10 Mar 2015 01:00:00 +0100
 
 lemonpos-fast (0.9.5-1) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
+  * Fix for Receipt contains duplicated ticket number (Closes: #2)
+  * Fix for Transaction finalization takes very long time (Closes: #1)
 
  -- Krzysztof Baranski <kbaransk@gmail.com>  Sun, 22 Jun 2014 23:06:09 +0200
