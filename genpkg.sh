@@ -9,7 +9,8 @@ mkdir -p $WORKDIR
 
 if [ ! -d $CHECKOUTDIR ]
 then
-	git clone https://github.com/kbaransk/lemonpos $CHECKOUTDIR
+	#git clone https://github.com/kbaransk/lemonpos $CHECKOUTDIR
+	git cone git@github.com:kbaransk/lemonpos.git $CHECKOUTDIR
 fi
 
 tar -czf $WORKDIR/lemonpos-fast_0.9.5.orig.tar.gz --exclude .git --exclude .gitignore lemonpos
