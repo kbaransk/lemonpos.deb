@@ -1,3 +1,15 @@
+lemonpos-fast (0.9.5-5) unstable; urgency=low
+
+  * Disable possibility to finish transaction if payment was slightly (< 0.1) lower then total
+
+ -- Krzysztof Baranski <kbaransk@gmail.com>  Tue,10 Jun 2015 00:45:00 +0200
+
+lemonpos-fast (0.9.5-4) unstable; urgency=low
+
+  * Price calculation fixes
+
+ -- Krzysztof Baranski <kbaransk@gmail.com>  Mon,9 Jun 2015 00:10:00 +0200
+
 lemonpos-fast (0.9.5-3) unstable; urgency=low
 
   * Fix for It's easy to overlook message that product was not added to basket as it's not in database (Closes: #5)
