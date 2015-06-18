@@ -1,3 +1,15 @@
+lemonpos-fast (0.9.5-7) unstable; urgency=low
+
+  * Update to latest github version
+
+ -- Krzysztof Baranski <kbaransk@gmail.com>  Thu,18 Jun 2015 23:45:00 +0200
+
+lemonpos-fast (0.9.5-6) unstable; urgency=low
+
+  * Update to latest github version
+
+ -- Krzysztof Baranski <kbaransk@gmail.com>  Sat,13 Jun 2015 22:40:00 +0200
+
 lemonpos-fast (0.9.5-5) unstable; urgency=low
 
   * Disable possibility to finish transaction if payment was slightly (< 0.1) lower then total
