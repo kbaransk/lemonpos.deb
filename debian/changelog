@@ -1,4 +1,11 @@
-lemonpos-fast (0.9.5-8) unstable; ungency=low
+lemonpos-fast (0.9.5-9) unstable; urgency=low
+
+  * Fix for: Issue#8: Reset payment mode to CASH on transaction start
+  * Fix for: Issue#9: customerid column in credits table should be unique
+
+ -- Krzysztof Baranski <kbaransk@gmail.com>  Mon,30 Nov 2015 21:59:12 +0100
+
+lemonpos-fast (0.9.5-8) unstable; urgency=low
 
   * Fix for: Issue#7: It's possible to create two clients that have the same client code
 
