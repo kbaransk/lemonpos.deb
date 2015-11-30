@@ -13,7 +13,7 @@ then
 	git clone git@github.com:kbaransk/lemonpos.git $CHECKOUTDIR
 fi
 
-tar -czf $WORKDIR/lemonpos-fast_0.9.5-8.orig.tar.gz --exclude .git --exclude .gitignore lemonpos
+tar -czf $WORKDIR/lemonpos-fast_0.9.6.orig.tar.gz --exclude .git --exclude .gitignore lemonpos
 cp -a lemonpos $WORKDIR/lemonpos
 cp -a debian $WORKDIR/lemonpos/debian
 rm -fr $WORKDIR/lemonpos/.git
