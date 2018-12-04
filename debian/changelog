@@ -1,3 +1,9 @@
+lemonpos-fast (0.9.8-1) unstable; urgency=low
+
+  * Fix for: Issue#11: Payment with points
+
+ -- Krzysztof Baranski <kbaransk@gmail.com>  Thu,15 Dec 2016 23:50:00 +0100
+
 lemonpos-fast (0.9.7-1) unstable; urgency=low
 
   * Fix for: Issue#10: sorting customers in squeeze
