@@ -1,3 +1,9 @@
+lemonpos-fast (0.9.10-1) unstable; urgency=low
+
+  * Fix for: Issue #13: Display points used on tickets and save that data as part of transaction
+
+ -- Krzysztof Baranski <kbaransk@gmail.com>  Tue,15 Jan 2019 23:46:24 +0100
+
 lemonpos-fast (0.9.9-1) unstable; urgency=low
 
   * Fix for: Issue #12: Payment with only points not supported
